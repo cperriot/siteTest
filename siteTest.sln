@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siteTest", "siteTest\siteTest.csproj", "{12A0D4B6-2089-4560-8733-CB6B4178C8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{F72907D7-FC47-435A-B73F-C0B0156FB2A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAC", "DAC\DAC.csproj", "{7D62DCED-14DF-4EF2-821D-36F0A121C073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DACTests", "DACTests\DACTests.csproj", "{C3A8EFCD-2BF2-4A93-A932-1BDC5B7D1AB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12A0D4B6-2089-4560-8733-CB6B4178C8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A0D4B6-2089-4560-8733-CB6B4178C8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A0D4B6-2089-4560-8733-CB6B4178C8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A0D4B6-2089-4560-8733-CB6B4178C8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72907D7-FC47-435A-B73F-C0B0156FB2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72907D7-FC47-435A-B73F-C0B0156FB2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72907D7-FC47-435A-B73F-C0B0156FB2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72907D7-FC47-435A-B73F-C0B0156FB2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D62DCED-14DF-4EF2-821D-36F0A121C073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D62DCED-14DF-4EF2-821D-36F0A121C073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D62DCED-14DF-4EF2-821D-36F0A121C073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D62DCED-14DF-4EF2-821D-36F0A121C073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A8EFCD-2BF2-4A93-A932-1BDC5B7D1AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A8EFCD-2BF2-4A93-A932-1BDC5B7D1AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A8EFCD-2BF2-4A93-A932-1BDC5B7D1AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A8EFCD-2BF2-4A93-A932-1BDC5B7D1AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
